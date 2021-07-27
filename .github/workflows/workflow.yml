@@ -1,6 +1,7 @@
 name: Main Workflow
 on:
-  issues:
+  schedule:
+    cron: * * * * *
 jobs:
   Ubuntu:
     name: Add labels to issues
