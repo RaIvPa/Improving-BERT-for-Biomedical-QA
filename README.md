@@ -3,7 +3,7 @@ This project explores whether it is possible to improve BERT for biomedical ques
 
 There are two main people involved in this project: Raphael Ivan Paras and Diego Molla-Aliod. The personal logbook of Raphael, the project software developer and researcher, and a record of this project's results can be found here: https://github.com/RaIvPa/Improving-BERT-for-Biomedical-QA/wiki. The Google Scholar of Diego, the project supervisor, can be found here: https://scholar.google.com.au/citations?user=FZhJRQUAAAAJ&hl=en.
 
-This project also contains both files of code used to practice AI development and the actual code used in the project's experiments. The non-practice code uses file paths that likely need to be changed, should you decide to use it. Each python file has 4 instances of file paths:
+This project also contains both files of code used to practice AI development and the actual code used in the project's experiments. The non-practice code uses file paths that likely need to be changed, should you decide to use it. Each non-practice python file has 4 instances of file paths:
 
 * Variables
   * train_path (location of the BioASQ training dataset json file)
