@@ -1,0 +1,19 @@
+Loading python3/3.9.2
+  Loading requirement: intel-mkl/2020.3.304
+Loading tensorflow/2.6.0
+  Loading requirement: cuda/11.4.1 cudnn/8.2.2-cuda11.4 nccl/2.10.3-cuda11.4
+    openmpi/4.1.1
+/local/spool/pbs/mom_priv/jobs/30604507.gadi-pbs.SC: line 20: /scratch/oe7/rp3665/scripts/batch_1/cosine/bert_base/bert_base_linear/30604507.gadi-pbs.log: No such file or directory
+
+======================================================================================
+                  Resource Usage on 2021-10-29 02:54:56:
+   Job Id:             30604507.gadi-pbs
+   Project:            oe7
+   Exit Status:        1
+   Service Units:      0.04
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:01                                   
+   Memory Requested:   16.0GB                Memory Used: 99.74MB         
+   Walltime requested: 10:00:00            Walltime Used: 00:00:02        
+   JobFS requested:    100.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,3 @@
+Downloading and preparing dataset csv/default to /home/576/rp3665/.cache/huggingface/datasets/csv/default-880ef650c37a8f26/0.0.0/9144e0a4e8435090117cea53e6c7537173ef2304525df4a077c435d8ee7828ff...
+Dataset csv downloaded and prepared to /home/576/rp3665/.cache/huggingface/datasets/csv/default-880ef650c37a8f26/0.0.0/9144e0a4e8435090117cea53e6c7537173ef2304525df4a077c435d8ee7828ff. Subsequent calls will reuse this data.
+{'rouge-1': {'f': 0.49570187409683103, 'p': 0.4207803254978352, 'r': 0.7396471082236387}, 'rouge-2': {'f': 0.40215845727767724, 'p': 0.3462892119287148, 'r': 0.5730551521293549}}

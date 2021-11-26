@@ -1,0 +1,20 @@
+Loading python3/3.9.2
+  Loading requirement: intel-mkl/2020.3.304
+Loading tensorflow/2.6.0
+  Loading requirement: cuda/11.4.1 cudnn/8.2.2-cuda11.4 nccl/2.10.3-cuda11.4
+    openmpi/4.1.1
+/home/576/dma576/lib/python3.7/site-packages/nltk/parse/malt.py:206: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if ret is not 0:
+
+======================================================================================
+                  Resource Usage on 2021-11-04 00:25:03:
+   Job Id:             30805425.gadi-pbs
+   Project:            sq44
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      0.22
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:05                                   
+   Memory Requested:   16.0GB                Memory Used: 275.52MB        
+   Walltime requested: 05:00:00            Walltime Used: 00:00:11        
+   JobFS requested:    100.0GB                JobFS used: 0B              
+======================================================================================

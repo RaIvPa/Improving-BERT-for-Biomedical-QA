@@ -1,0 +1,31 @@
+Loading python3/3.9.2
+  Loading requirement: intel-mkl/2020.3.304
+Loading tensorflow/2.6.0
+  Loading requirement: cuda/11.4.1 cudnn/8.2.2-cuda11.4 nccl/2.10.3-cuda11.4
+    openmpi/4.1.1
+/home/576/dma576/lib/python3.7/site-packages/nltk/parse/malt.py:206: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if ret is not 0:
+2021-10-20 13:03:40.149331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 31024 MB memory:  -> device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:3d:00.0, compute capability: 7.0
+2021-10-20 13:03:40.154157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 31024 MB memory:  -> device: 1, name: Tesla V100-SXM2-32GB, pci bus id: 0000:b2:00.0, compute capability: 7.0
+All model checkpoint layers were used when initializing TFBertForSequenceClassification.
+
+All the layers of TFBertForSequenceClassification were initialized from the model checkpoint at /scratch/oe7/rp3665/models/bert_base.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertForSequenceClassification for predictions without further training.
+Using custom data configuration default-77fc5b675f586125
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 5001.16it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 192.91it/s]
+0 tables [00:00, ? tables/s]1 tables [00:00,  7.29 tables/s]                                0 tables [00:00, ? tables/s]                            0 tables [00:00, ? tables/s]                              0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 182.76it/s]
+2021-10-20 13:04:40.612901: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+
+======================================================================================
+                  Resource Usage on 2021-10-20 13:32:58:
+   Job Id:             30110632.gadi-pbs
+   Project:            oe7
+   Exit Status:        0
+   Service Units:      35.66
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:14:56                                   
+   Memory Requested:   16.0GB                Memory Used: 6.94GB          
+   Walltime requested: 10:00:00            Walltime Used: 00:29:43        
+   JobFS requested:    100.0GB                JobFS used: 148.69KB        
+======================================================================================
